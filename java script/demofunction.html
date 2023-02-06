@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            border: 4px solid black;
+            background-color: yellowgreen;
+            margin: 5px;
+        }
+    </style>
+</head>
+<body>
+    <div onmouseenter="work()" onmouseleave="work1()" onclick="work3()" id="abc">
+
+        ayush chaturvedi
+    </div>
+    <script>
+        function work()
+        {
+        document.getElementById("abc").innerHTML="mouseenter"
+        }
+        function work1()
+        {
+            document.getElementById("abc").innerHTML="mouseleave"
+        }
+        function work3(){
+            document.getElementById("abc").innerHTML="mouseclick"
+        }
+    </script>
+</body>
+</html>

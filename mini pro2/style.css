@@ -1,0 +1,40 @@
+*{
+	margin: 1px;
+			padding:1px;
+			border-sizing:border-box;
+		}
+		h1
+{      
+		background: linear-gradient(red,blue);
+		text-align: center;
+			
+		}
+		img{
+			width: 100%;
+			height: 200px;
+		}
+		
+		.parent{display: flex;
+			padding-top: 2px;
+		}
+
+		.child
+		{
+			width: 25%;
+		flex: left;
+		}
+		body{
+			min-height:100%;
+			flex-direction:column;
+		 }
+		 footer{
+		  background: linear-gradient(gold,blueviolet);
+		  text-align: center;
+		  bottom: 0;
+		  position: fixed;
+		  width: 100%;
+		  left: 0;
+		 }
+		 html{
+		 	height: 100%;
+		 }

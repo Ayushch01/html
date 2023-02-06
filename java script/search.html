@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        div
+        {
+            border: 4px solid black;
+        }
+    </style>
+</head>
+<body>
+    Enter any value:
+    <input type="search" id="t" onkeyup="fun()"/>
+    <div id="a">
+
+    </div>
+    
+</body>
+<script>
+    function fun()
+    {
+        let name=document.getElementById("t").value
+        document.getElementById("a").innerHTML=name;
+
+    }
+</script>
+</html>

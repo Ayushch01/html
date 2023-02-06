@@ -1,0 +1,1 @@
+document.getElementById('first').innerHTML="<h1>ayush ayush</h1>"
