@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <p>click here Lorem ipsum, dolor sit amet consectetur adipisicing elit. Provident quos vero corporis nihil aperiam veritatis odit, aspernatur facere asperiores maiores, ipsum suscipit, odio voluptatibus voluptas sapiente dignissimos ea numquam cum.</p>
+<script>
+    $(document).ready(function(){
+        $("p").click(function(){
+            $("p").css("background-color","black")
+        })
+        $("p").dblclick(function(){
+            $("p").css({"background-color":"red","border":"2px solid black"})
+    })
+})
+</script>
+</body>
+</html>
